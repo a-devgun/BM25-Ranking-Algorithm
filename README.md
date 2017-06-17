@@ -8,15 +8,13 @@ After index has been created, than this script can be used to calculate the BM25
 
 Numerical tokens have been ignored in this script.
 
-SETUP
-=====
+## SETUP
 
 1. Download the latest version of python - "Python 3.5.0".
 2. Install PyCharm.
 3. Execute code. 
 
-ABOUT THE CODE
-==============
+## ABOUT THE CODE
 
 1. The code is divided into 2 significan portions. One part is the indexer and the other is the BM25 score calculator
 
@@ -31,7 +29,6 @@ bm25 index.out queries.txt 100 > results.eval
 In this case the bm25 method will take the input of the inverted index file 'index.out' and the input queries as 'queries.txt'. The max results per query were input as '100'. The output will both be printed on screen and also saved to file named - 'results.eval'
 
 
-CONTACT
-=======
+## CONTACT
 
 Please contact 'Anirudh Devgun' at 'devgun.a@husky.neu.edu' in case of any issues.
