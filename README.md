@@ -1,4 +1,4 @@
-# SMALL SEARCH ENGINE
+# BM25 Algorithm
 
 This script can be used to create inverted indexes for any given input file. The input file should be of follow the given format:
 a) A # followed by a document ID
